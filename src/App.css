@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.app {
+    background: #f3f3f3;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.d-container {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.menu__bird {
+    margin-left: auto;
+    margin-right: auto/*this will push aside the other flex-items and the bird takes the remaining space!*/
+}
+
+
+/*
+  UI cleanups for the twitter navigation. This just makes things look good on the eye 😎
+*/
+
+header {
+    box-shadow: 5px 10px 20px -20px rgba(0, 0, 0, .5);
+    background-color: #8e44ad;
+    color: #fff;
+}
+
+.box-shadow {
+    box-shadow: 5px 10px 20px -20px rgba(0, 0, 0, .5);
+}
+
+.menu a {
+    color: #fff;
+    padding-right: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.menu {
+    align-items: center;
+    color: rgba(117, 117, 117, 1);
+    align-items: center;
+    align-content: center;
+}
+
+.menu li {
+    cursor: pointer;
+}
+
+.menu li:hover {
+    color: rgba(85, 172, 238, 1);
+}
+
+.menu__bird a {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.menu li:not(:last-child):not(.menu__bird) {
+    margin-right: 10px;
+}
+
+.menu li i:not(.fa-twitter):not(.fa-search):not(.fa-user-circle-o) {
+    margin-right: 3px;
+}
+
+.btn__add {
+    background-color: #fff;
+    padding: 9px 15px;
+    border-radius: 2px;
+}
+
+.btn__add a {
+    color: #8e44ad;
+}
+
+.card__btn {
+    margin-top: 20px;
+}
+
+.btn {
+    border-radius: 2px;
+}
+
+.btn__main {
+    background: #8e44ad;
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+/** card details **/
+
+.card {
+    background-color: #fff;
+    box-shadow: 5px 10px 20px -20px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+.card__photo-thumb {
+    width: 70px;
+    height: 70px;
+}
+
+.card__details h4 {
+    font-size: 14px;
+    line-height: 1.2em;
+    padding-top: 10px;
+}
+
+.margin__top--sm {
+    margin-top: 40px;
+}
+
+.margin__top--xs {
+    margin-top: 10px;
+}
+
+.no-shadow {
+    box-shadow: 0;
+}
+
+.no-border {
+    border: none;
+}
+
+.panel {
+    box-shadow: 0;
+}
